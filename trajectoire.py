@@ -85,10 +85,10 @@ def plot_4zones(Vacc, V1, DEV2_ON=True, V2=10000, z_sur_m=1.602e-19/1.66054e-27)
     plt.vlines(L4, ymin=0.001, ymax=0.2, color='black')
     plt.vlines(L4, ymin=-0.2, ymax=-0.001, color='black')
 
-    plt.show()
+    #plt.show()
 
 
-plot_4zones(Vacc=1000, V1=15, DEV2_ON=False)
+#plot_4zones(Vacc=1000, V1=15, DEV2_ON=False)
 
 
 
