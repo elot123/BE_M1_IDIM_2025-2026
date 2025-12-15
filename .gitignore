@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+#Fichiers temporaires KiCad
+*.bak
+*.tmp
+*.dcm
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+#Cache
+.cache/
+fp-info-cache
+
+#Fichiers de sauvegarde
+*-save.kicad_sch
+*-save.kicad_pcb
+
+#Gerbers générés (optionnel)
+gerbers/
+fabrication/
+
+#Fichiers système
+.DS_Store
+Thumbs.db
